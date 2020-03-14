@@ -45,7 +45,7 @@ Then change it.
 After that, you'll need to resize the root partition to fill the entirety of your disk. So type:
  
 ```bash
-# sudo cfdisk /dev/mmcblkX
+sudo cfdisk /dev/mmcblkX
 ```
 
 (the X stands for your disk number. You can get this with the `lsblk` command)
